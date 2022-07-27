@@ -51,11 +51,15 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
@@ -64,7 +68,7 @@ header h1 span {
 header nav {
 	padding: 46px 0;
 	width: 100%;
-	flex-flow: column;
+	align-items: center;
 }
 header nav ul {
 	margin: 0;
@@ -75,7 +79,8 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 14px;
 	padding: 0 10px;
-	display: inline;
+	list-style: none;
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -116,7 +121,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 	flex-flow: row wrap;
